@@ -17,7 +17,7 @@ namespace LegendaryClient.Logic.Region.Garena
 
         public override string LoginQueue
         {
-            get { return "https://lqvn1.lol.garenanow.com"; }
+            get { return "chatvn1.lol.garenanow.com"; }
         }
 
         public override string Location
