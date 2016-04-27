@@ -17,7 +17,7 @@ namespace LegendaryClient.Logic.Region.Garena
 
         public override string LoginQueue
         {
-            get { return "chatvn1.lol.garenanow.com"; }
+            get { return "https://lqvn1.lol.garenanow.com"; }
         }
 
         public override string Location
@@ -48,7 +48,7 @@ namespace LegendaryClient.Logic.Region.Garena
 
         public override string Locale
         {
-            get { return "en_US"; }
+            get { return "vn_VN"; }
         }
 
         public override IPAddress[] PingAddresses
