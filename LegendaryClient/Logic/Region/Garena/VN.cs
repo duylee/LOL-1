@@ -17,7 +17,7 @@ namespace LegendaryClient.Logic.Region.Garena
 
         public override string LoginQueue
         {
-            get { return "https://lqvn1.lol.garenanow.com"; }
+            get { return "https://lqvn1.lol.garenanow.com/login-queue/rest/queues/lol/authenticate"; }
         }
 
         public override string Location
@@ -48,7 +48,7 @@ namespace LegendaryClient.Logic.Region.Garena
 
         public override string Locale
         {
-            get { return "vn_VN"; }
+            get { return "en_US"; }
         }
 
         public override IPAddress[] PingAddresses
@@ -61,7 +61,7 @@ namespace LegendaryClient.Logic.Region.Garena
 
         public override System.Uri SpectatorLink
         {
-            get { return new System.Uri("http://125.212.222.163:80/observer-mode/rest/featured/"); }
+            get { return new System.Uri("http://125.212.222.163:80/observer-mode/rest/"); }
         }
 
         public override string SpectatorIpAddress
