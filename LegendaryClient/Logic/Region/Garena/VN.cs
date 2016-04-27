@@ -1,9 +1,5 @@
-#region
-
 using System;
 using System.Net;
-
-#endregion
 
 namespace LegendaryClient.Logic.Region.Garena
 {
@@ -11,7 +7,17 @@ namespace LegendaryClient.Logic.Region.Garena
     {
         public override string RegionName
         {
-            get { return "prod.lol.garenanow.com"; }
+            get { return "VN"; }
+        }
+
+        public override string Server
+        {
+            get { return "prodvn1.lol.garenanow.com"; }
+        }
+
+        public override string LoginQueue
+        {
+            get { return "https://lqvn1.lol.garenanow.com"; }
         }
 
         public override string Location
@@ -31,44 +37,36 @@ namespace LegendaryClient.Logic.Region.Garena
 
         public override string ChatName
         {
-            get { return "chat.lol.garenanow.com"; }
+            get { return "vn"; }
         }
 
-        public override Uri NewsAddress
+        public override System.Uri NewsAddress
         {
-            get { return new Uri("http://ll.leagueoflegends.com/landingpage/data/na/en_US.js"); }
+            get { return new System.Uri("http://ll.leagueoflegends.com/landingpage/data/na/en_US.js"); }
             //http://lol.garena.com/landing.php?[garneaUser]
         }
 
         public override string Locale
         {
-            get { return "en_VN"; }
-        }
-
-        public override PVPNetConnect.Region PVPRegion
-        {
-            get { return PVPNetConnect.Region.VN; }
+            get { return "vn_VN"; }
         }
 
         public override IPAddress[] PingAddresses
         {
             get
             {
-                return new IPAddress[]
-                {
-                    //No known IP address
-                };
+                throw new NotImplementedException();
             }
         }
 
-        public override Uri SpectatorLink
+        public override System.Uri SpectatorLink
         {
-            get { return new Uri("http://125.212.222.163:80/observer-mode/rest/"); }
+            get { return new System.Uri("http://125.212.222.163:80/observer-mode/rest/featured/"); }
         }
 
         public override string SpectatorIpAddress
         {
-            get { return ""; }
+            get { return "125.212.222.163:80"; }
             set { }
         }
     }
