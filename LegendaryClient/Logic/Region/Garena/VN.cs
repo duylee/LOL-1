@@ -1,7 +1,7 @@
 using System;
 using System.Net;
 
-namespace LegendaryClient.Logic.Region.Garena
+namespace LegendaryClient.Logic.Region
 {
     public sealed class VN : BaseRegion
     {
@@ -17,7 +17,7 @@ namespace LegendaryClient.Logic.Region.Garena
 
         public override string LoginQueue
         {
-            get { return "https://lqvn.lol.garenanow.com/login-queue/rest/queue"; }
+            get { return "https://lqvn.lol.garenanow.com"; }
         }
 
         public override string Location
