@@ -48,7 +48,7 @@ namespace LegendaryClient.Logic.Region.Garena
 
         public override string Locale
         {
-            get { return "en_US"; }
+            get { return "vn_VN"; }
         }
 
         public override IPAddress[] PingAddresses
@@ -61,7 +61,7 @@ namespace LegendaryClient.Logic.Region.Garena
 
         public override System.Uri SpectatorLink
         {
-            get { return new System.Uri("http://125.212.222.163:80/observer-mode/rest/"); }
+            get { return new System.Uri("http://125.212.222.163:80/observer-mode/rest/featured"); }
         }
 
         public override string SpectatorIpAddress
