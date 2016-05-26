@@ -37,7 +37,7 @@ namespace LegendaryClient.Logic.Region.Garena
 
         public override string ChatName
         {
-            get { return "vn"; }
+            get { return "chatvn1.lol.garenanow.com"; }
         }
 
         public override System.Uri NewsAddress
