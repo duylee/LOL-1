@@ -55,10 +55,7 @@ namespace LegendaryClient.Logic.Region.Garena
         {
             get
             {
-                return new IPAddress[]
-                {
-                    IPAddress.Parse("125.212.222.163")
-                };
+                throw new NotImplementedException();
             }
         }
 
